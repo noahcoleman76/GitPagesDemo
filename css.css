@@ -1,14 +1,11 @@
 body {
-  background-color: black;
+  background-color: #515151;
   color: #ffffff;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  }
 h1 {
 text-align: center;
-font-size: 36px;
-font-stretch: expanded;
-border: black;
-border-radius: 2px;
+font-size: 9em;
 
 }
 p {
@@ -17,21 +14,20 @@ text-align: center;
 div {
 padding-top: 75px;
 /* border: 5px solid whitesmoke; */
-background-color: rgb(83, 83, 83);
+background-color: #484848;
 width: 100%;
 height: 1100px;
 text-align: center;
 }
 div:hover{
-background-color: #9c2d2d;
+background-color: #303030;
 }
 img {
 width: 450px;
 height: 550px;
 border-radius: 80em 80em 80em 80em;
 border: 2px solid whitesmoke;
-background-color: black;
-box-shadow: 10px 10px 10px 10px whitesmoke
+box-shadow: 10px 13px 15px 10px whitesmoke
 }
 
 
@@ -42,9 +38,9 @@ from {
 transform: rotate(0deg);
 }
 to {
--webkit-transform: rotate(-360deg);
--o-transform: rotate(-360deg);
-transform: rotate(-360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+transform: rotate(360deg);
 }
 }
 @keyframes rotating {
@@ -56,21 +52,21 @@ from {
 transform: rotate(0deg);
 }
 to {
--ms-transform: rotate(-360deg);
--moz-transform: rotate(-360deg);
--webkit-transform: rotate(-360deg);
--o-transform: rotate(-360deg);
-transform: rotate(-360deg);
+-ms-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+transform: rotate(360deg);
 }
 }
 
 
 img:hover {
--webkit-animation: rotating 10s linear infinite;
--moz-animation: rotating 10s linear infinite;
--ms-animation: rotating 10s linear infinite;
--o-animation: rotating 10s linear infinite;
-animation: rotating 10s linear infinite;
-background: url(utah.png)
-box-shadow: 10px 10px 10px 10px white;
+-webkit-animation: rotating 2s linear infinite;
+-moz-animation: rotating 2s linear infinite;
+-ms-animation: rotating 2s linear infinite;
+-o-animation: rotating 2s linear infinite;
+animation: rotating 2s linear infinite;
+background-color: snow;
+box-shadow: 10px 13px 15px 10px maroon
 }
