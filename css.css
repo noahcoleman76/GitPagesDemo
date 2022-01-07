@@ -71,7 +71,10 @@ img:hover {
     -o-animation: rotating 10s linear infinite;
     animation: rotating 10s linear infinite;
     background-image: url(utah.png);
-    background-size: 450px;
-    box-shadow: 10px 10px 10px 10px white
+    box-shadow: 10px 10px 10px 10px white;
+    width: 450px;
+    height: 550px;
+    position: absolute;
+    
     
   }
