@@ -30,6 +30,7 @@ img {
     height: 550px;
     border-radius: 80em 80em 80em 80em;
     border: 2px solid whitesmoke;
+    background-color: black;
     box-shadow: 10px 10px 10px 10px whitesmoke
 }
 
@@ -41,9 +42,9 @@ img {
       transform: rotate(0deg);
     }
     to {
-      -webkit-transform: rotate(360deg);
-      -o-transform: rotate(360deg);
-      transform: rotate(360deg);
+      -webkit-transform: rotate(-360deg);
+      -o-transform: rotate(-360deg);
+      transform: rotate(-360deg);
     }
   }
   @keyframes rotating {
@@ -55,11 +56,11 @@ img {
       transform: rotate(0deg);
     }
     to {
-      -ms-transform: rotate(360deg);
-      -moz-transform: rotate(360deg);
-      -webkit-transform: rotate(360deg);
-      -o-transform: rotate(360deg);
-      transform: rotate(360deg);
+      -ms-transform: rotate(-360deg);
+      -moz-transform: rotate(-360deg);
+      -webkit-transform: rotate(-360deg);
+      -o-transform: rotate(-360deg);
+      transform: rotate(-360deg);
     }
   }
 
@@ -70,7 +71,7 @@ img:hover {
     -ms-animation: rotating 10s linear infinite;
     -o-animation: rotating 10s linear infinite;
     animation: rotating 10s linear infinite;
-    background-color: black;
+    background: url(utah.png)
     box-shadow: 10px 10px 10px 10px white
     
   }
