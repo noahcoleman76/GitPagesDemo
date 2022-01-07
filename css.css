@@ -69,7 +69,7 @@ img:hover {
     -ms-animation: rotating 10s linear infinite;
     -o-animation: rotating 10s linear infinite;
     animation: rotating 10s linear infinite;
-    background-image;: url(utah.png)
+    background-image: url(utah.png);
     box-shadow: 10px 10px 10px 10px white
     
   }
