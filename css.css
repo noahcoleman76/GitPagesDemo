@@ -71,5 +71,6 @@ img:hover {
     -o-animation: rotating 10s linear infinite;
     animation: rotating 10s linear infinite;
     background-color: black;
-    box-shadow: 10px 13px 15px 10px white
+    box-shadow: 10px 10px 10px 10px white
+    
   }
